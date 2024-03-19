@@ -35,7 +35,7 @@ const planeMaterial = new THREE.RawShaderMaterial({
         uSkellyTexture: { value: skellyTexture },
         uTime: { value: 0 },
         uColorPrimary: { value: new THREE.Color(0xFF0000).convertLinearToSRGB() },
-        uColorSecondary: { value: new THREE.Color(0x0080FF).convertLinearToSRGB() },
+        uColorSecondary: { value: new THREE.Color(0x00FFFF).convertLinearToSRGB() },
         uSineAmplitudePrimary: { value: 40 },
         uTimeScalePrimary: { value: 1.5 },
         uSineAmplitudeSecondary: { value: 40},
